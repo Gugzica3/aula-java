@@ -51,11 +51,7 @@ public class Televisao {
         return ligada;
     }
     public void alteraVolume(int arg){
-        if( arg > 0){
             volume = volume + arg;
-        }
-        else
-            volume = volume - arg;
     }
     public void alteraCanal(int arg){
         if( arg > 0){
